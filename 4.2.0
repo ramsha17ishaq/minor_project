@@ -1,0 +1,13 @@
+Collecting nbformat
+  Downloading nbformat-5.4.0-py3-none-any.whl (73 kB)
+     ---------------------------------------- 73.3/73.3 kB 2.0 MB/s eta 0:00:00
+Requirement already satisfied: jsonschema>=2.6 in c:\users\asus\anaconda2\envs\base2\lib\site-packages (from nbformat) (4.15.0)
+Requirement already satisfied: traitlets>=5.1 in c:\users\asus\anaconda2\envs\base2\lib\site-packages (from nbformat) (5.1.1)
+Requirement already satisfied: jupyter-core in c:\users\asus\anaconda2\envs\base2\lib\site-packages (from nbformat) (4.10.0)
+Collecting fastjsonschema
+  Downloading fastjsonschema-2.16.1-py3-none-any.whl (22 kB)
+Requirement already satisfied: pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0 in c:\users\asus\anaconda2\envs\base2\lib\site-packages (from jsonschema>=2.6->nbformat) (0.18.1)
+Requirement already satisfied: attrs>=17.4.0 in c:\users\asus\anaconda2\envs\base2\lib\site-packages (from jsonschema>=2.6->nbformat) (22.1.0)
+Requirement already satisfied: pywin32>=1.0 in c:\users\asus\anaconda2\envs\base2\lib\site-packages (from jupyter-core->nbformat) (302)
+Installing collected packages: fastjsonschema, nbformat
+Successfully installed fastjsonschema-2.16.1 nbformat-5.4.0
